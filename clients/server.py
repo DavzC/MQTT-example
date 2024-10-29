@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 
-# Definir el broker y el puerto
-broker = "ip_del_broker"
+# Configuración del broker y puerto
+broker = "localhost"  # Cambia a la IP del broker si es necesario
 puerto = 1883
 
 # Crear el cliente MQTT
