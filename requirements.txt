@@ -1,0 +1,3 @@
+paho-mqtt==1.6.1
+hbmqtt==0.9.6
+asyncio==3.4.3
