@@ -47,6 +47,15 @@ python clients/server.py
 python clients/sensor.py
 ```
 
+## Autor
+
+**David Santiago Ortiz Calderon**  
+
+[LinkedIn](https://www.linkedin.com/in/david-ortiz-b2136a1ba/) | [GitHub](https://github.com/DavzC) 
+
+Este proyecto fue creado para demostrar la implementación de un sistema de monitoreo IoT con MQTT, incluyendo failover y manejo de desconexiones para mejorar la resiliencia y continuidad de la comunicación en dispositivos conectados.
+
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Para cambios importantes, por favor, abre un issue primero para discutir qué te gustaría cambiar.
@@ -55,8 +64,4 @@ Las contribuciones son bienvenidas. Para cambios importantes, por favor, abre un
 
 [MIT](https://choosealicense.com/licenses/mit/)
 ```
-
-## Autor
-
-- [David Ortiz]
 
