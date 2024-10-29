@@ -7,9 +7,7 @@ Este proyecto simula un sistema de monitoreo de temperatura en tiempo real para 
 La estructura de archivos del proyecto es la siguiente:
 
 ```plaintext
-MQTT-example/
-├── brokers/
-│   ├── brokerP.py                # Broker principal ejecutado 
+MQTT-example/              
 ├── clients/
 │   ├── sensor.py                 # Cliente que simula el sensor de temperatura 
 │   ├── server.py               # Servidor que recibe los datos 
@@ -23,28 +21,6 @@ Para instalar las dependencias del proyecto, se puede utilizar el archivo `requi
 
 ```bash
 pip install -r requirements.txt
-```
-
-## Uso
-
-Para ejecutar el proyecto, se deben seguir los siguientes pasos:
-
-1. Ejecutar el broker principal en la VM 1:
-
-```bash
-python brokers/brokerP.py
-```
-
-2. Ejecutar el servidor en la VM 1:
-
-```bash
-python clients/server.py
-```
-
-3. Ejecutar el sensor en la VM 2:
-
-```bash
-python clients/sensor.py
 ```
 
 ## Autor
